@@ -1,0 +1,133 @@
+   1. Tell me about Bootstrap 
+     Answer (memorize this line): 
+Bootstrap is a front-end framework used to build responsive and mobile-first websites 
+quickly using pre-defined CSS and JavaScript components. 
+ 
+   2. Why do you use Bootstrap? 
+     Answer: 
+It reduces development time and helps create responsive UI without writing CSS from 
+scratch. 
+ 
+   3. What is Grid System?   (VERY IMPORTANT) 
+     Answer: 
+Bootstrap uses a 12-column grid system to design layouts. We divide the screen into 12 
+columns and assign width using col classes. 
+     Example: 
+<div class="row"> 
+  <div class="col-4"></div> 
+  <div class="col-8"></div> 
+</div> 
+     say: “4 + 8 = 12 columns” 
+ 
+   4. What are containers? 
+     Answer: 
+Containers are used to wrap content. 
+• .container → fixed width 
+• .container-fluid → full width 
+ 
+   5. What are breakpoints? 
+     Answer: 
+Breakpoints are screen sizes used to make the layout responsive. 
+     Example: 
+• sm 
+• md 
+• lg 
+ 
+   6. Difference between col and col-md-6 
+     Answer: 
+col takes equal width, while col-md-6 takes 6 columns on medium screens. 
+ 
+   7. What is Flexbox in Bootstrap? 
+     Answer: 
+Bootstrap uses flexbox for layout and alignment using classes like d-flex. 
+ 
+   8. How to center a div?   (MOST ASKED) 
+     Answer: 
+d-flex justify-content-center align-items-center 
+     say: “using flex utilities” 
+ 
+   9. What is Navbar? 
+     Answer: 
+Navbar is a responsive navigation bar used for menus. 
+ 
+   10. What is Modal? 
+     Answer: 
+Modal is a popup dialog box used for forms, alerts, etc. 
+ 
+   11. What are utility classes? 
+     Answer: 
+Utility classes are predefined classes used for spacing, alignment, and colors. 
+     Example: 
+• mt-3 
+• p-2 
+• text-center 
+ 
+   12. Bootstrap 5 features   
+     Answer: 
+Bootstrap 5 removed jQuery and uses pure JavaScript with improved performance. 
+ 
+   13. What is offset? 
+     Answer: 
+Offset is used to create space before a column. 
+ 
+   14. What is card? 
+     Answer: 
+Card is a flexible container used to display content like text, images, and buttons. 
+ 
+   15. How Bootstrap makes responsive design? 
+     Answer: 
+Bootstrap uses grid system, breakpoints, and responsive utility classes to adjust layout 
+for different screens. 
+ 
+   QUICK PRACTICAL ANSWERS (IMPRESS INTERVIEWER) 
+Create 2 equal columns 
+<div class="col-6"></div> 
+<div class="col-6"></div> 
+3 equal columns 
+<div class="col-4"></div> 
+<div class="col-4"></div> 
+<div class="col-4"></div> 
+Responsive layout example 
+<div class="col-sm-12 col-md-6 col-lg-4"></div> 
+say: 
+“Full width in mobile, half in tablet, 1/3 in desktop” 
+Hide element in mobile 
+d-none d-md-block 
+Add spacing 
+mt-3 p-2 
+Align right 
+d-flex justify-content-end 
+• Grid (12 columns)    
+• Breakpoints    
+• Flex (d-flex)    
+• Container    
+• One example    
+What are Bootstrap components? 
+Answer: Pre-built UI elements like: 
+• Navbar 
+• Cards 
+• Modals 
+• Carousel 
+• Buttons 
+What is .img-fluid? 
+Answer: It makes images responsive by applying max-width: 100% and auto height. 
+How do you hide/show elements in Bootstrap? 
+Answer: Using display utility classes. 
+Example: 
+HTML 
+d-none d-md-block 
+What is gutter in Bootstrap? 
+Answer: Gutter is the space between columns, controlled using classes like g-3, gx
+2, gy-4. 
+What is mobile-first approach? 
+Answer: Bootstrap follows a mobile-first approach, meaning styles are designed for 
+mobile devices first and then extended for larger screens using breakpoints. 
+Row and col 
+• Row is used to create a horizontal layout 
+• Columns are placed inside the row 
+• Total columns in one row = 12 
+Columns should always be inside a row, and row should be inside a container. 
+Difference between Bootstrap and CSS? 
+Answer: 
+CSS is used to design from scratch, while Bootstrap provides pre-built classes and 
+components for faster development. 
